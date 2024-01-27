@@ -1,0 +1,50 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+
+
+.azul{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.rojo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.verde{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.amarillo{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.contenedor{
+    max-width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 4px solid black;
+}
